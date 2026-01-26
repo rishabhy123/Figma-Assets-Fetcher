@@ -12,4 +12,5 @@ export const getFigmaFile = async (fileId) => {
     }
   );
   return res.data;
+ 
 };

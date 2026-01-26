@@ -9,7 +9,7 @@ router.get("/file/:fileId", async (req, res) => {
     res.json(data.document);
   } catch (err) {
     res.status(500).json({ error: "Figma fetch failed" });
-    console.log(err.message)
+    
   }
 });
 
